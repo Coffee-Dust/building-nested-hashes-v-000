@@ -21,16 +21,13 @@ def bonus
   }
 
   #code your solution here:
-  def rip
-    hero = epic_tragedy[:montague][:hero]
-    hero[:status] = "dead"
+  hero = epic_tragedy[:montague][:hero]
+  hero[:status] = "dead"
 
-    heroine = epic_tragedy[:capulet][:heroine]
-    heroine[:status] = "dead"
-    #I don't do drugs :)
-  end
+  heroine = epic_tragedy[:capulet][:heroine]
+  heroine[:status] = "dead"
+  #I don't do drugs :)
 
-  rip
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
 end
